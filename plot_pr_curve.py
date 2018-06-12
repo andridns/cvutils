@@ -1,6 +1,6 @@
 def plot_pr_curve(
     precisions, recalls, category='Person', label=None, color=None, ax=None):
-    """Simple plotting helper function"""
+    """Precision vs Recall plotting function"""
 
     if ax is None:
         plt.figure(figsize=(10,8))
